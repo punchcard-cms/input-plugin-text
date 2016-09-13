@@ -27,9 +27,6 @@ module.exports = {
       label: 'Add Your Text',
       placeholder: 'Text Goes Here',
       type: 'text',
-      settings: {
-        empty: true,
-      },
     },
   },
   html: '<label for="{{text.id}}">{{text.label}}</label><input type="{{text.type}}" id="{{text.id}}" name="{{text.name}}" value="{{text.value}}" placeholder="{{text.placeholder}}" />',
